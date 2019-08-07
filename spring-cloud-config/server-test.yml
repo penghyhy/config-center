@@ -1,0 +1,23 @@
+{
+    "name": "server",
+    "profiles": [
+        "test"
+    ],
+    "label": "master",
+    "version": "2f64482a317ebe84e0ab47196d05c80623438b8c",
+    "state": null,
+    "propertySources": [
+        {
+            "name": "git@github.com:penghyhy/config-center.git/spring-cloud-config/server-test.yml",
+            "source": {
+                "from": "git-test-1.0"
+            }
+        },
+        {
+            "name": "git@github.com:penghyhy/config-center.git/spring-cloud-config/server.properties",
+            "source": {
+                "from": "git-default-1.0"
+            }
+        }
+    ]
+}
